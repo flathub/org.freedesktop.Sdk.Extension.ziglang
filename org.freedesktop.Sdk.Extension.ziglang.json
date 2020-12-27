@@ -22,24 +22,24 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ziglang.org/download/0.7.0/zig-linux-x86_64-0.7.0.tar.xz",
-                    "sha256": "e619b1c6094c095b932767f527aee2507f847ea981513ff8a08aab0fd730e0ac",
+                    "url": "https://ziglang.org/download/0.7.1/zig-linux-x86_64-0.7.1.tar.xz",
+                    "sha256": "18c7b9b200600f8bcde1cd8d7f1f578cbc3676241ce36d771937ce19a8159b8d",
                     "only-arches": [
                         "x86_64"
                     ]
                 },
                 {
                     "type": "archive",
-                    "url": "https://ziglang.org/download/0.7.0/zig-linux-aarch64-0.7.0.tar.xz",
-                    "sha256": "f89933bac87d44be82325754ff88423020c81c7032a6fc41cfeb81e982eeab9b",
+                    "url": "https://ziglang.org/download/0.7.1/zig-linux-aarch64-0.7.1.tar.xz",
+                    "sha256": "48ec90eba407e4587ddef7eecef25fec7e13587eb98e3b83c5f2f5fff2a5cbe7",
                     "only-arches": [
                         "aarch64"
                     ]
                 },
                 {
                     "type": "archive",
-                    "url": "https://ziglang.org/download/0.7.0/zig-linux-armv7a-0.7.0.tar.xz",
-                    "sha256": "011c267e25a96ee160505a560c441daa045359a9d50e13ab1bada9d75c95db2d",
+                    "url": "https://ziglang.org/download/0.7.1/zig-linux-armv7a-0.7.1.tar.xz",
+                    "sha256": "5a0662e07b4c4968665e1f97558f8591f6facec45d2e0ff5715e661743107ceb",
                     "only-arches": [
                         "arm"
                     ]
