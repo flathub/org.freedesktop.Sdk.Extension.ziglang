@@ -1,8 +1,8 @@
 {
     "id": "org.freedesktop.Sdk.Extension.ziglang",
-    "branch": "20.08",
+    "branch": "21.08",
     "runtime": "org.freedesktop.Sdk",
-    "runtime-version": "20.08",
+    "runtime-version": "21.08",
     "sdk": "org.freedesktop.Sdk",
     "build-extension": true,
     "separate-locales": false,
@@ -22,24 +22,24 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ziglang.org/download/0.8.0/zig-linux-x86_64-0.8.0.tar.xz",
-                    "sha256": "502625d3da3ae595c5f44a809a87714320b7a40e6dff4a895b5fa7df3391d01e",
+                    "url": "https://ziglang.org/download/0.8.1/zig-linux-x86_64-0.8.1.tar.xz",
+                    "sha256": "6c032fc61b5d77a3f3cf781730fa549f8f059ffdb3b3f6ad1c2994d2b2d87983",
                     "only-arches": [
                         "x86_64"
                     ]
                 },
                 {
                     "type": "archive",
-                    "url": "https://ziglang.org/download/0.8.0/zig-linux-aarch64-0.8.0.tar.xz",
-                    "sha256": "ee204ca2c2037952cf3f8b10c609373a08a291efa4af7b3c73be0f2b27720470",
+                    "url": "https://ziglang.org/download/0.8.1/zig-linux-aarch64-0.8.1.tar.xz",
+                    "sha256": "2166dc9f2d8df387e8b4122883bb979d739281e1ff3f3d5483fec3a23b957510",
                     "only-arches": [
                         "aarch64"
                     ]
                 },
                 {
                     "type": "archive",
-                    "url": "https://ziglang.org/download/0.8.0/zig-linux-armv7a-0.8.0.tar.xz",
-                    "sha256": "d00b8bd97b79f45d6f5da956983bafeaa082e6c2ae8c6e1c6d4faa22fa29b320",
+                    "url": "https://ziglang.org/download/0.8.1/zig-linux-armv7a-0.8.1.tar.xz",
+                    "sha256": "5ba58141805e2519f38cf8e715933cbf059f4f3dade92c71838cce341045de05",
                     "only-arches": [
                         "arm"
                     ]
