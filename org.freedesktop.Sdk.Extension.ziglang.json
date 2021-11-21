@@ -84,7 +84,6 @@
             "name": "metainfo",
             "buildsystem": "simple",
             "build-commands": [
-                "mkdir -p ${FLATPAK_DEST}/share/metainfo",
                 "install -Dm644 org.freedesktop.Sdk.Extension.ziglang.metainfo.xml ${FLATPAK_DEST}/share/metainfo/org.freedesktop.Sdk.Extension.ziglang.metainfo.xml",
                 "appstream-compose --basename=org.freedesktop.Sdk.Extension.ziglang --prefix=${FLATPAK_DEST} --origin=flatpak org.freedesktop.Sdk.Extension.ziglang"
             ],
