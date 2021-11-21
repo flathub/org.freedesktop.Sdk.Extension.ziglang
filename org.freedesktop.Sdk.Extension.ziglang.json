@@ -68,7 +68,7 @@
             "name": "scripts",
             "buildsystem": "simple",
             "build-commands": [
-                "install -Dm755 /usr/lib/sdk/ziglang/enable.sh"
+                "install -Dm755 enable.sh /usr/lib/sdk/ziglang/enable.sh"
             ],
             "sources": [
                 {
