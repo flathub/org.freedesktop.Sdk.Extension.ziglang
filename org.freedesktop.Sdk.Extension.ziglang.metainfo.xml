@@ -18,10 +18,20 @@
     <url type="bugtracker">https://github.com/ziglang/zig/issues</url>
 
     <releases>
-        <release version="0.8.1" date="2021-09-06" />
-        <release version="0.8.0" date="2021-06-04" />
-        <release version="0.7.1" date="2020-12-13" />
-        <release version="0.7.0" date="2020-11-08" />
-        <release version="0.6.0" date="2020-04-13" />
+        <release version="0.8.1" date="2021-09-06">
+            <url>https://ziglang.org/download/0.8.1/release-notes.html</url>
+        </release>
+        <release version="0.8.0" date="2021-06-04">
+            <url>https://ziglang.org/download/0.8.0/release-notes.html</url>
+        </release>
+        <release version="0.7.1" date="2020-12-13">
+            <url>https://ziglang.org/download/0.7.1/release-notes.html</url>
+        </release>
+        <release version="0.7.0" date="2020-11-08">
+            <url>https://ziglang.org/download/0.7.0/release-notes.html</url>
+        </release>
+        <release version="0.6.0" date="2020-04-13">
+            <url>https://ziglang.org/download/0.6.0/release-notes.html</url>
+        </release>
     </releases>
 </component>
