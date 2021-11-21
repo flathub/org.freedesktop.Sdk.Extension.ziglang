@@ -24,6 +24,12 @@
                     "type": "archive",
                     "url": "https://ziglang.org/download/0.8.1/zig-linux-x86_64-0.8.1.tar.xz",
                     "sha256": "6c032fc61b5d77a3f3cf781730fa549f8f059ffdb3b3f6ad1c2994d2b2d87983",
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://ziglang.org",
+                        "version-pattern": "Latest Release: &nbsp; <b>(\\d+\\.\\d+\\.\\d+)</b>",
+                        "url-template": "https://ziglang.org/download/$version/zig-linux-x86_64-$version.tar.xz"
+                    },
                     "only-arches": [
                         "x86_64"
                     ]
@@ -32,6 +38,12 @@
                     "type": "archive",
                     "url": "https://ziglang.org/download/0.8.1/zig-linux-aarch64-0.8.1.tar.xz",
                     "sha256": "2166dc9f2d8df387e8b4122883bb979d739281e1ff3f3d5483fec3a23b957510",
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://ziglang.org",
+                        "version-pattern": "Latest Release: &nbsp; <b>(\\d+\\.\\d+\\.\\d+)</b>",
+                        "url-template": "https://ziglang.org/download/$version/zig-linux-aarch64-$version.tar.xz"
+                    },
                     "only-arches": [
                         "aarch64"
                     ]
@@ -40,6 +52,12 @@
                     "type": "archive",
                     "url": "https://ziglang.org/download/0.8.1/zig-linux-armv7a-0.8.1.tar.xz",
                     "sha256": "5ba58141805e2519f38cf8e715933cbf059f4f3dade92c71838cce341045de05",
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://ziglang.org",
+                        "version-pattern": "Latest Release: &nbsp; <b>(\\d+\\.\\d+\\.\\d+)</b>",
+                        "url-template": "https://ziglang.org/download/$version/zig-linux-armv7a-$version.tar.xz"
+                    },
                     "only-arches": [
                         "arm"
                     ]
@@ -50,7 +68,7 @@
             "name": "scripts",
             "buildsystem": "simple",
             "build-commands": [
-                "cp enable.sh /usr/lib/sdk/ziglang"
+                "install -Dm755 /usr/lib/sdk/ziglang/enable.sh"
             ],
             "sources": [
                 {
@@ -66,9 +84,8 @@
             "name": "metainfo",
             "buildsystem": "simple",
             "build-commands": [
-                "mkdir -p ${FLATPAK_DEST}/share/metainfo",
-                "cp org.freedesktop.Sdk.Extension.ziglang.metainfo.xml ${FLATPAK_DEST}/share/metainfo",
-                "appstream-compose  --basename=org.freedesktop.Sdk.Extension.ziglang --prefix=${FLATPAK_DEST} --origin=flatpak org.freedesktop.Sdk.Extension.ziglang"
+                "install -Dm644 org.freedesktop.Sdk.Extension.ziglang.metainfo.xml ${FLATPAK_DEST}/share/metainfo/org.freedesktop.Sdk.Extension.ziglang.metainfo.xml",
+                "appstream-compose --basename=org.freedesktop.Sdk.Extension.ziglang --prefix=${FLATPAK_DEST} --origin=flatpak org.freedesktop.Sdk.Extension.ziglang"
             ],
             "sources": [
                 {
