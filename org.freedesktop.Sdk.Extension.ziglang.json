@@ -22,8 +22,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ziglang.org/download/0.10.0/zig-linux-x86_64-0.10.0.tar.xz",
-                    "sha256": "631ec7bcb649cd6795abe40df044d2473b59b44e10be689c15632a0458ddea55",
+                    "url": "https://ziglang.org/download/0.10.1/zig-linux-x86_64-0.10.1.tar.xz",
+                    "sha256": "6699f0e7293081b42428f32c9d9c983854094bd15fee5489f12c4cf4518cc380",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://ziglang.org",
@@ -36,8 +36,8 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://ziglang.org/download/0.10.0/zig-linux-aarch64-0.10.0.tar.xz",
-                    "sha256": "09ef50c8be73380799804169197820ee78760723b0430fa823f56ed42b06ea0f",
+                    "url": "https://ziglang.org/download/0.10.1/zig-linux-aarch64-0.10.1.tar.xz",
+                    "sha256": "db0761664f5f22aa5bbd7442a1617dd696c076d5717ddefcc9d8b95278f71f5d",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://ziglang.org",
@@ -50,8 +50,8 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://ziglang.org/download/0.10.0/zig-linux-armv7a-0.10.0.tar.xz",
-                    "sha256": "7201b2e89cd7cc2dde95d39485fd7d5641ba67dc6a9a58c036cb4c308d2e82de",
+                    "url": "https://ziglang.org/download/0.10.1/zig-linux-armv7a-0.10.1.tar.xz",
+                    "sha256": "bd4d05a31f7d99e2458e53c3a8cdc8feb55d4629b2e1a32ddee38274f0498b8f",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://ziglang.org",
