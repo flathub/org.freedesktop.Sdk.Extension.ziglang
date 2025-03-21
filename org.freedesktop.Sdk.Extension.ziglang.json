@@ -27,7 +27,7 @@
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://ziglang.org",
-                        "version-pattern": "Latest Release: &nbsp; <b>(\\d+\\.\\d+\\.\\d+)</b>",
+                        "version-pattern": "Latest Release:\n               &nbsp;<span>(\\d+\\.\\d+\\.\\d+)</span>",
                         "url-template": "https://ziglang.org/download/$version/zig-linux-x86_64-$version.tar.xz"
                     },
                     "only-arches": [
@@ -41,7 +41,7 @@
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://ziglang.org",
-                        "version-pattern": "Latest Release: &nbsp; <b>(\\d+\\.\\d+\\.\\d+)</b>",
+                        "version-pattern": "Latest Release:\n               &nbsp;<span>(\\d+\\.\\d+\\.\\d+)</span>",
                         "url-template": "https://ziglang.org/download/$version/zig-linux-aarch64-$version.tar.xz"
                     },
                     "only-arches": [
