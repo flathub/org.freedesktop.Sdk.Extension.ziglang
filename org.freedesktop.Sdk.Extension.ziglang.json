@@ -22,13 +22,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ziglang.org/download/0.14.0/zig-linux-x86_64-0.14.0.tar.xz",
-                    "sha256": "473ec26806133cf4d1918caf1a410f8403a13d979726a9045b421b685031a982",
+                    "url": "https://ziglang.org/download/0.14.1/zig-x86_64-linux-0.14.1.tar.xz",
+                    "sha256": "24aeeec8af16c381934a6cd7d95c807a8cb2cf7df9fa40d359aa884195c4716c",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://ziglang.org",
                         "version-pattern": "Latest Release: &nbsp; <b>(\\d+\\.\\d+\\.\\d+)</b>",
-                        "url-template": "https://ziglang.org/download/$version/zig-linux-x86_64-$version.tar.xz"
+                        "url-template": "https://ziglang.org/download/$version/zig-x86_64-linux-$version.tar.xz"
                     },
                     "only-arches": [
                         "x86_64"
@@ -36,13 +36,13 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://ziglang.org/download/0.14.0/zig-linux-aarch64-0.14.0.tar.xz",
-                    "sha256": "ab64e3ea277f6fc5f3d723dcd95d9ce1ab282c8ed0f431b4de880d30df891e4f",
+                    "url": "https://ziglang.org/download/0.14.1/zig-aarch64-linux-0.14.1.tar.xz",
+                    "sha256": "f7a654acc967864f7a050ddacfaa778c7504a0eca8d2b678839c21eea47c992b",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://ziglang.org",
                         "version-pattern": "Latest Release: &nbsp; <b>(\\d+\\.\\d+\\.\\d+)</b>",
-                        "url-template": "https://ziglang.org/download/$version/zig-linux-aarch64-$version.tar.xz"
+                        "url-template": "https://ziglang.org/download/$version/zig-aarch64-linux-$version.tar.xz"
                     },
                     "only-arches": [
                         "aarch64"
