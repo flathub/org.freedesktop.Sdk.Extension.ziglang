@@ -18,6 +18,9 @@
     <url type="bugtracker">https://github.com/ziglang/zig/issues</url>
 
     <releases>
+        <release version="0.15.1" date="2025-08-20">
+            <url>https://ziglang.org/download/0.15.1/release-notes.html</url>
+        </release>
         <release version="0.14.0" date="2025-03-05">
             <url>https://ziglang.org/download/0.14.0/release-notes.html</url>
         </release>
