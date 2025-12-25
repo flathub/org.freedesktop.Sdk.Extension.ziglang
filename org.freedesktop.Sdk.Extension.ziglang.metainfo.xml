@@ -15,7 +15,7 @@
     </description>
 
     <url type="homepage">https://ziglang.org</url>
-    <url type="bugtracker">https://github.com/ziglang/zig/issues</url>
+    <url type="bugtracker">https://codeberg.org/ziglang/zig/issues</url>
 
     <releases>
         <release version="0.15.2" date="2025-10-11">
