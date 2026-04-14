@@ -19,7 +19,7 @@
 
     <releases>
         <release version="0.16.0" date="2026-04-14">
-            <description></description>
+            <url>https://ziglang.org/download/0.16.0/release-notes.html</url>
         </release>
         <release version="0.15.2" date="2025-10-11">
             <description/>
