@@ -10,7 +10,7 @@
     <description>
         <p>
             Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.
-            This SDK extension contains Zig toolchain.
+            This SDK extension contains the Zig toolchain.
         </p>
     </description>
 
