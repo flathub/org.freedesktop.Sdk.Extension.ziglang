@@ -18,6 +18,9 @@
     <url type="bugtracker">https://codeberg.org/ziglang/zig/issues</url>
 
     <releases>
+        <release version="0.17.1" date="2026-11-02">
+            <description/>
+        </release>
         <release version="0.17.0" date="2026-10-01">
             <url>https://ziglang.org/download/0.17.0/release-notes.html</url>
         </release>
