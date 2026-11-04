@@ -25,10 +25,10 @@
                     "url": "https://ziglang.org/download/0.17.1/zig-x86_64-linux-0.17.1.tar.xz",
                     "sha256": "3581863e3cbcfd0fce0efc682ce7e9e93da96668a977791d356a26d2a7e9b17a",
                     "x-checker-data": {
-                        "type": "html",
-                        "url": "https://ziglang.org",
-                        "version-pattern": "Latest Release:\n               &nbsp;<span>(\\d+\\.\\d+\\.\\d+)</span>",
-                        "url-template": "https://ziglang.org/download/$version/zig-x86_64-linux-$version.tar.xz"
+                        "type": "json",
+                        "url": "https://ziglang.org/download/index.json",
+                        "version-query": "keys | map(select(test(\"^[0-9]+[.][0-9]+[.][0-9]+$\"))) | max_by(split(\".\") | map(tonumber))",
+                        "url-query": ".[$version][\"x86_64-linux\"].tarball"
                     },
                     "only-arches": [
                         "x86_64"
@@ -39,10 +39,10 @@
                     "url": "https://ziglang.org/download/0.17.1/zig-aarch64-linux-0.17.1.tar.xz",
                     "sha256": "a1546d5646eb184437918d6635ca6b762a0e889eac09cef720ee7a1ed3fe7795",
                     "x-checker-data": {
-                        "type": "html",
-                        "url": "https://ziglang.org",
-                        "version-pattern": "Latest Release:\n               &nbsp;<span>(\\d+\\.\\d+\\.\\d+)</span>",
-                        "url-template": "https://ziglang.org/download/$version/zig-aarch64-linux-$version.tar.xz"
+                        "type": "json",
+                        "url": "https://ziglang.org/download/index.json",
+                        "version-query": "keys | map(select(test(\"^[0-9]+[.][0-9]+[.][0-9]+$\"))) | max_by(split(\".\") | map(tonumber))",
+                        "url-query": ".[$version][\"aarch64-linux\"].tarball"
                     },
                     "only-arches": [
                         "aarch64"
